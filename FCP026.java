@@ -6,7 +6,7 @@ int M=input.nextInt();
 int N=input.nextInt();
 int S=0;
 for(int i=M;i<=N;i++){
-S=S+M;
+S=S+i;
 }
 System.out.println(S);
 }
