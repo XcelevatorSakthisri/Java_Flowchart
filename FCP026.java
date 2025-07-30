@@ -5,7 +5,7 @@ Scanner input=new Scanner(System.in);
 int M=input.nextInt();
 int N=input.nextInt();
 int S=0;
-for(M=2;M<=N;M++){
+for(int i=M;i<=N;i++){
 S=S+M;
 }
 System.out.println(S);
